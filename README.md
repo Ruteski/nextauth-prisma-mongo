@@ -1,0 +1,1 @@
+# nextauth-prisma-mongo
