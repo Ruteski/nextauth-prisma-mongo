@@ -48,6 +48,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 6. npx prisma generate
 - instalar next auth -> yarn add next-auth
 - instalar o adapter do next auth do prisma -> yarn add @prisma/client @auth/prisma-adapter 
+- instalar bcrypt -> yarn add bcrypt
 
 More information in our documentation:                                                                                                                 
 https://pris.ly/d/getting-started
@@ -66,3 +67,6 @@ https://pris.ly/d/getting-started
 
 - ### add input
 -> npx shadcn-ui@latest add input
+
+- ### add toat
+-> npx shadcn-ui@latest add toast
