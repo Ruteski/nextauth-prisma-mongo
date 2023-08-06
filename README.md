@@ -35,5 +35,34 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Comandos utilizados
 
-- Criação do projeto - npx create-next-app@latest <nome-projeto> --typescript --tailwind --eslint
-- Baixar/iniciar o shadcn - npx shadcn-ui@latest init
+- Criação do projeto -> npx create-next-app@latest <nome-projeto> --typescript --tailwind --eslint
+- Baixar/iniciar o shadcn -> npx shadcn-ui@latest init
+- Instalação prisma -> yarn add prisma --save-dev
+- -> inicializar o prisma com provider do mongo -> npx prisma init --datasource-provider mongodb
+  Next steps:
+1. Set the DATABASE_URL in the .env file to point to your existing database. If your database has no tables yet, read https://pris.ly/d/getting-started
+2. Define models in the schema.prisma file.
+3. Run prisma generate to generate the Prisma Client. You can then start querying your database.
+4. npx prisma db push
+5. instalar client prisma -> yarn add @prisma/client
+6. npx prisma generate
+- instalar next auth -> yarn add next-auth
+- instalar o adapter do next auth do prisma -> yarn add @prisma/client @auth/prisma-adapter 
+
+More information in our documentation:                                                                                                                 
+https://pris.ly/d/getting-started
+
+
+
+## Comandos do shadcn
+- ### listar componentes para instalação
+-> npx shadcn-ui@latest add
+
+- ### add button
+-> npx shadcn-ui@latest add button 
+
+- ### add label
+-> npx shadcn-ui@latest add label
+
+- ### add input
+-> npx shadcn-ui@latest add input
